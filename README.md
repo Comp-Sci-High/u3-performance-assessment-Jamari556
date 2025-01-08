@@ -9,7 +9,7 @@ I really enjoy games, it was the first thing to come to mind.
 <!-- Describe your API and the available data endpoints -->
 
 My game API shows off all my favorite games
-the /docs endpoint is a description of my API it shows everything thatss in my API.
+the /docs endpoint is a description of my API it shows everything thats in my API.
 My  /games/[1-10]  endpoint shows a description about all the games A added. Here are all of the games I've added. = 
 1= The Witcher 3: Wild Hunt
 2= Minecraft

@@ -135,17 +135,7 @@ const games = [
     res.send("<h1> Welcome to the game Api</h1>")
   })
 
-  app.get("/docs" , (req, res) => {
-    res.status(200).send("<h1>API Documentation</h1><p>Use <code>/games</code> to get all games and <code>/games/[id]</code> to get a specific game by ID.</p>")
-  })
-  
-  app.get("/games/:id", (req, res) => {
-    const gameId = parseInt(req.params.id);
-    for (let i = 0; i < games.length; i++) {
-      if (games[i].game_id === gameId) {
-        return res.json(games[i]);
-      }
-    }
+
 
   });
   
